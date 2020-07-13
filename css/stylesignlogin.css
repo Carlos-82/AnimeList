@@ -1,0 +1,90 @@
+main {
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 50px;
+    font-size: 24px;
+}
+
+.register-container {
+    margin: 20px 40px;
+
+}
+
+.input-box {
+    text-align: center;
+    width: 75%;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2em;
+    font-size: 10px;
+}
+
+.buttons-container {
+    margin: 20px 20px 100px 20px;
+    text-emphasis: column;
+
+}
+
+.signup-button {
+    width: 100px;
+    background-color: blue;
+}
+
+.login-button {
+    width: 100px;
+    background-color: green;
+}
+
+
+
+.question {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.active,
+.question:hover {
+    background-color: #ccc;
+}
+
+
+.answer {
+    padding: 5px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+
+    .register-container {
+        width: 300px;
+        margin: 0 auto;
+
+    }
+
+    .input-box {
+        width: 300px;
+        font-size: 10px;
+
+    }
+
+    .input-box {
+        width: 200px;
+    }
+}
