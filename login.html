@@ -37,30 +37,30 @@
             <li><a href="/faq.html">FAQ</a></li>
         </ul>
     </nav>
+
     <main>
         <section>
             <h2 class="signup-title">LOG IN</h2>
-        </section>
-        <section>
-            <section class="register-container">
-                <input type="text" name="nameid" class="input-box" id="nameid" placeholder="User Name">
-                <input type="text" name="paswordid" class="input-box" id="passwordid" placeholder="Password">
-            </section>
-            <section class="buttons-container">
-                <button class="input-box signup-button">Log In</button>
-                <button class="input-box login-button"><a class="login-button" href="signup.html">Sig Up</a></button>
-            </section>
+            <div class="register-container">
+                <input type="text" name="email" class="input-box" id="email" placeholder="Email Adress">
+                <input type="password" name="password" class="input-box" id="password" placeholder="Password">
+            </div>
+            <div class="buttons-container">
+                <button class="input-box login-button" id="login-button">Log In</button>
+                <button class="input-box signup-button"><a class="signup-button" href="signup.html">Sig Up</a></button>
+            </div>
+            <div class="message-container"></div>
         </section>
     </main>
     <footer>
-        <section class="information">
+        <div class="information">
             <h5 class="title">Lorem ipsum</h5>
             <ul>
                 <li class="thanks">Lorem ipsum</li>
                 <li class="thanks">Lorem ipsum</li>
                 <li class="thanks">Lorem ipsum</li>
             </ul>
-        </section>
+        </div>
         <div class="footer-logo">
             <div class="logo">
                 <span>M</span>
@@ -76,6 +76,8 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="/js/login.js"></script>
+    <script type="text/javascript" src="/js/database.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
 </body>
 

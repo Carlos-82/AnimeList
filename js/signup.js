@@ -119,9 +119,3 @@ class Signup {
 const signup = new Signup();
 
 window.addEventListener("load", signup.addListeners);
-
-/*this.errors = {
-            invalidEmailError: this.invalidEmailError,
-            passwordError: this.passwordError,
-            repeatPasswordError: this.repeatPasswordError,
-        }*/
