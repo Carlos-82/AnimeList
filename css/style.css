@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    font-family: Helvetica;
+    font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -92,8 +92,13 @@ nav {
     display: none;
 }
 
+
+p {
+    font-family: 'Courgette', cursive;
+}
+
 header {
-    background-image: url("https://loremimage.com/default/400/350/");
+    background-image: url("/images/animecharactersmobile1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -142,13 +147,15 @@ header {
 
 
 .title {
-    font-size: 12px;
-    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .explanation {
     font-size: 12px;
     text-align: justify;
+    font-family: 'Courgette', cursive;
+
 }
 
 footer {
