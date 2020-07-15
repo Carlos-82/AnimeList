@@ -1,7 +1,7 @@
 'use strict'
 
 
-const buttonMenu = document.querySelectorAll(".nav-button");
+const buttonMenu = document.querySelector(".nav-button");
 
 function menu(buttonMenu) {
     buttonMenu.addEventListener("click", function () {

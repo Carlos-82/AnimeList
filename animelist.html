@@ -38,47 +38,19 @@
         </ul>
     </nav>
     <div>
-        <h2>Disfruta de tu Anime Favorito!</h2>
+        <div class="searchhead">
+            <img src="/images/animesearch.jpg" alt="animesearch" class="imgsearch">
+            <h2 class="searchtittle">Empieza la busqueda!</h2>
+        </div>
         <div class="select-box">
-            <select name="genre" id="genre-selector">Listado de Generos
-                <option value="">Accion</option>
-                <option value="">Aventura</option>
-                <option value="">Coches</option>
-                <option value="">Comedia</option>
+            <select name="genre" id="genre-selector" onchange="">Listado de Generos
+                <option value="" selected disabled>Select Genre</option>
             </select>
         </div>
     </div>
     <section class="card-target idsection">
         <div class="anime-target">
-            <div class="image-container">
-                <img class="anime-img" src="https://loremimage.com/default/400/350/" alt="">
-                <span class="genre-badge">Lorem</span>
-            </div>
-            <h3 class="anime-title">Lorem ipsum dolor sit amet</h3>
-            <p class="anime-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ab molestiae
-                quis earum, voluptatibus perspiciatis incidunt voluptatum illo odio architecto nesciunt atque ullam,
-                dolorem eius? Nostrum dolorem alias quisquam expedita?</p>
-        </div>
-        <div class="anime-target">
-            <div class="image-container">
-                <img class="anime-img" src="https://loremimage.com/default/400/350/" alt="">
-                <span class="genre-badge">Lorem</span>
-            </div>
-            <h3 class="anime-title">Lorem ipsum dolor sit amet</h3>
-            <p class="anime-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ab molestiae
-                quis earum, voluptatibus perspiciatis incidunt voluptatum illo odio architecto nesciunt atque ullam,
-                dolorem eius? Nostrum dolorem alias quisquam expedita?</p>
-        </div>
-        <div class="anime-target">
-            <div class="image-container">
-                <img class="anime-img" src="https://loremimage.com/default/400/350/" alt="">
-                <span class="genre-badge">Lorem</span>
-            </div>
-            <h3 class="anime-title">Lorem ipsum dolor sit amet</h3>
-            <p class="anime-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ab molestiae
-                quis earum, voluptatibus perspiciatis incidunt voluptatum illo odio architecto nesciunt atque ullam,
-                dolorem eius? Nostrum dolorem alias quisquam expedita?</p>
-        </div>
+
     </section>
     <footer>
         <section class="information">
@@ -106,8 +78,7 @@
     </footer>
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/animeApi.js"></script>
-
-
+    <script type="text/javascript" src="/js/generearray.js"></script>
 </body>
 
 </html>

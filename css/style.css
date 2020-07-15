@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     font-family: 'Permanent Marker', cursive;
+    background-color: black;
 }
 
 
@@ -11,7 +12,7 @@ nav {
     margin: 0;
     padding: 0;
     justify-content: space-between;
-    background-color: rgba(46, 46, 220, 0.551);
+    background-color: #2c4676;
 }
 
 .logo {
@@ -25,7 +26,7 @@ nav {
 .logo span {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
-    color: rgba(49, 115, 43, 0.877);
+    color: rgba(228, 24, 17, 0.884);
 }
 
 .logo span:nth-child(1) {
@@ -82,39 +83,74 @@ nav {
     transform: scale(65.9, 1) rotatey(-89.5deg);
 }
 
+
+
 .nav-button {
-    padding: 3px 10px 3px 10px;
+    padding: 3px 10px;
     background-color: transparent;
     border: 0;
+    cursor: pointer
 }
+
+.nav-button:hover {
+    background-color: black;
+    color: #ddd;
+
+}
+
 
 .nav-menu {
     display: none;
 }
 
+h1 {
+    font-size: 30px;
+    color: #A7CBEB;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+h3,
+h5,
+.thanks {
+    color: white
+}
 
 p {
     font-family: 'Courgette', cursive;
+    color: white;
 }
 
 header {
-    background-image: url("/images/animecharactersmobile1.jpg");
-    background-size: cover;
+    background-image: url("/images/mobileanime.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
+    width: 100%
 }
 
 .header-title {
     margin: 0;
     text-align: center;
+    font-size: 30px;
+    color: #A7CBEB;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.headertext {
+    position: absolute;
+    margin-top: 50px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
 }
 
 .card-container {
     padding: 30px 20px 0 20px;
 }
+
 
 .card {
     display: flex;
@@ -137,9 +173,9 @@ header {
 }
 
 .card-img {
-    background: black;
+    background: rgb(184, 182, 187);
     width: 100px;
-    border: 5px solid;
+    border: 5px solid rgb(55, 85, 105);
     height: 100px;
     border-radius: 50%;
 
@@ -159,10 +195,19 @@ header {
 }
 
 footer {
-    background-color: aqua;
+    background-color: #2c4676;
     display: flex;
     justify-content: space-around;
 
+}
+
+.information {
+    position: relative;
+}
+
+.footimg {
+    position: absolute;
+    size: 100%
 }
 
 
@@ -204,8 +249,15 @@ footer {
         color: black;
     }
 
+    header {
+        background-image: url("/images/animecharacters.jpg");
+    }
 
     .header-title {
+        font-size: 50px;
+    }
+
+    .headertext {
         font-size: 30px;
     }
 
@@ -268,6 +320,8 @@ footer {
     }
 
 }
+
+
 
 h2 {
     font-size: 24px;
