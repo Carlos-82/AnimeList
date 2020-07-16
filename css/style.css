@@ -8,6 +8,9 @@ body {
 
 
 nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
     width: 100%;
     display: flex;
     margin: 0;
@@ -92,7 +95,9 @@ nav {
     border: 0;
     cursor: pointer;
     visibility: visible;
+
 }
+
 
 .nav-button.open {
     float: none;
@@ -107,6 +112,10 @@ nav {
 
 }
 
+a {
+    color: white;
+}
+
 .nav-button:hover {
     background-color: black;
     color: #ddd;
@@ -117,6 +126,8 @@ nav {
 .nav-menu {
     display: none;
 }
+
+
 
 h1 {
     font-size: 30px;
@@ -210,6 +221,9 @@ header {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #2c4676;
     display: flex;
     justify-content: space-around;
@@ -220,10 +234,6 @@ footer {
     position: relative;
 }
 
-.footimg {
-    position: absolute;
-    size: 100%
-}
 
 
 .thanks {

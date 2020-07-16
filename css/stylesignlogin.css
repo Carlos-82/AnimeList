@@ -94,50 +94,24 @@ main {
 
 
 
-.question {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    font-size: 10px;
-    padding: 18px;
-    width: 80%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.3s;
-}
-
-
-.active,
-.question:hover {
-    background-color: #ccc;
-}
-
-
-.answer {
-    padding: 5px 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    font-size: 14px;
-}
-
 @media (min-width: 768px) {
+
+    main {
+        margin-bottom: 100px;
+    }
 
     .register-container {
         width: 500px;
-        height: 250px;
+
         margin: 0 auto;
 
     }
 
     .input-box {
-        width: 300px;
-        font-size: 10px;
+
+        font-size: 16px;
 
     }
 
-    .input-box {
-        width: 200px;
-    }
+
 }

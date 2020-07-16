@@ -1,0 +1,36 @@
+.question {
+    background-color: #2c4676;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    padding: 10px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.active,
+.question:hover {
+    background-color: lightsteelblue;
+}
+
+
+.answer {
+
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 10px;
+    margin-left: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.txt-answer {
+    color: black
+}
