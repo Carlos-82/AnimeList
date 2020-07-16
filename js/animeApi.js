@@ -9,15 +9,10 @@ const searchGenre = (value) => {
 }
 
 
-
-
-
-
 const search = (num) => {
     searchGenre(num).then((movies) => {
         const section = document.querySelector(".idsection")
         section.innerHTML = ""
-
 
         for (let i = 0; i < movies.length; i++) {
             const genres = movies[i].genres;

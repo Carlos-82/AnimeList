@@ -12,43 +12,47 @@ main {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-.register-container {
-    background-image: url(/images/myhero.jpg);
+.register-container,
+.login-container {
     background-size: 100% 100%;
-    margin: 20px 20px 100px 20px;
+    border: 2px solid white;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 20px 100px 20px;
 
+
+}
+
+.register-container {
+    background-image: url(/images/myhero.jpg);
+    align-items: self-end;
 }
 
 .login-container {
     background-image: url(/images//haykiuu.jpg);
-    background-size: 100% 100%;
-    border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 20px 50px 20px;
+
+
 
 }
-
-
 
 .signup-form,
 .login-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 100px;
+}
+
+.login-form {
+    align-items: center;
 }
 
 
 .input-box {
     text-align: center;
     width: 100%;
-    margin: 10px 20px;
+    margin: 10px 10px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 2em;
@@ -62,10 +66,8 @@ main {
 }
 
 .alignbutton {
-
-    flex-direction: column;
-    align-items: flex-end;
     text-align: right;
+    align-self: stretch;
 
 }
 
@@ -100,11 +102,30 @@ main {
         margin-bottom: 100px;
     }
 
+    .loginmain {
+        display: flex;
+        align-items: center;
+    }
+
     .register-container {
         width: 500px;
-
         margin: 0 auto;
+    }
 
+    .login-container {
+        width: 400px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .signup-form {
+        margin-left: 20px;
+    }
+
+    .signup-tittle {
+        margin-top: 100px;
     }
 
     .input-box {

@@ -37,11 +37,13 @@ class Login {
         const message = document.createElement('p');
 
         if (user) {
+            message.className = "succesmessage"
             message.innerHTML = `Bienvenido ${user.email}`;
             message.classList.add("correct-message");
             this.redirect()
 
         } else {
+            message.className = "errormessage"
             message.innerHTML = 'El mail y/o el password son incorrectos';
         }
         this.messageContainer.appendChild(message);

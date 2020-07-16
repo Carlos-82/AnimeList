@@ -1,3 +1,10 @@
+h2 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .question {
     background-color: #2c4676;
     color: white;
@@ -8,7 +15,7 @@
     padding: 10px;
     width: 80%;
     text-align: left;
-    border: none;
+    border: 1px solid lightskyblue;
     outline: none;
     transition: 0.3s;
 }
@@ -33,4 +40,27 @@
 
 .txt-answer {
     color: black
+}
+
+.questionimg {
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .question {
+        font-size: 15px;
+    }
+
+    .answer {
+        font-size: 13px;
+    }
 }

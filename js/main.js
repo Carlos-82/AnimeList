@@ -2,17 +2,17 @@
 
 
 const buttonMenu = document.querySelector(".nav-button");
+const navMenu = document.querySelector(".nav-menu");
 
-function menu(buttonMenu) {
-    buttonMenu.addEventListener("click", function () {
-        this.classList.toggle("active");
-        if (menu.style.display === "block") {
-            menu.style.display = "none";
 
-        } else {
-            menu.style.display = "block";
-        }
+buttonMenu.addEventListener("click", function () {
+    //this.classList.toggle("active");
 
-    })
+    if (navMenu.style.display === "block") {
+        navMenu.style.display = "none";
 
-}
+    } else {
+        navMenu.style.display = "block";
+    }
+
+})

@@ -121,6 +121,11 @@ select#genre-selector:focus {
 
 
 @media (min-width: 768px) {
+    main {
+        display: flex;
+        align-items: center;
+    }
+
     .card-target {
         display: flex;
         flex-wrap: wrap;
