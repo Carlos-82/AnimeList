@@ -2,42 +2,94 @@ main {
     text-align: center;
     align-content: center;
     flex-direction: column;
+
 }
 
-h2 {
+.signup-tittle {
     margin: 50px;
     font-size: 24px;
+    color: #A7CBEB;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .register-container {
-    margin: 20px 40px;
+    background-image: url(/images/myhero.jpg);
+    background-size: 100% 100%;
+    margin: 20px 20px 100px 20px;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
+.login-container {
+    background-image: url(/images//haykiuu.jpg);
+    background-size: 100% 100%;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 50px 20px;
+
+}
+
+
+
+.signup-form,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
 .input-box {
     text-align: center;
-    width: 75%;
+    width: 100%;
     margin: 10px 20px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 2em;
     font-size: 10px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .buttons-container {
-    margin: 20px 20px 100px 20px;
-    text-emphasis: column;
+    margin: 20px;
+
+}
+
+.alignbutton {
+
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
 
 }
 
 .signup-button {
     width: 100px;
-    background-color: blue;
+    background-color: rgb(184, 207, 221);
 }
 
 .login-button {
     width: 100px;
-    background-color: green;
+    background-color: rgb(155, 233, 155);
+}
+
+.succesmessage {
+    background-color: steelblue;
+    box-shadow: 5px 10px lightsteelblue;
+    margin: 30px 20px;
+}
+
+.errormessage {
+    background-color: crimson;
+    box-shadow: 5px 10px rgba(219, 83, 83, 0.76);
+    margin: 30px 20px;
+
 }
 
 
@@ -73,7 +125,8 @@ h2 {
 @media (min-width: 768px) {
 
     .register-container {
-        width: 300px;
+        width: 500px;
+        height: 250px;
         margin: 0 auto;
 
     }

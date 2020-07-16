@@ -87,6 +87,7 @@ class Signup {
         }
 
         const succesMessageP = document.createElement('p');
+        succesMessageP.className = "succesmessage";
         succesMessageP.innerHTML = "Bienvenido Otaku!";
 
         this.errorsWrapper.appendChild(succesMessageP)
@@ -108,6 +109,7 @@ class Signup {
 
         errorsStringArr.forEach((errorStr) => {
             const errorMessageP = document.createElement('p');
+            errorMessageP.className = "errormessage";
             errorMessageP.innerHTML = errorStr;
 
             this.errorsWrapper.appendChild(errorMessageP)

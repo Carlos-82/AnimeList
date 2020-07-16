@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     font-family: 'Permanent Marker', cursive;
     background-color: black;
+
 }
 
 
@@ -89,7 +90,21 @@ nav {
     padding: 3px 10px;
     background-color: transparent;
     border: 0;
-    cursor: pointer
+    cursor: pointer;
+    visibility: visible;
+}
+
+.nav-button.open {
+    float: none;
+    text-align: left;
+    margin: 0;
+    visibility: visible;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+
 }
 
 .nav-button:hover {

@@ -113,6 +113,8 @@ select#genre-selector:focus {
     overflow: scroll;
 }
 
+
+
 @media (min-width: 768px) {
     .card-target {
         display: flex;
