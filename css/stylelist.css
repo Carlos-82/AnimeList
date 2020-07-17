@@ -130,6 +130,11 @@ select#genre-selector:focus {
         align-items: center;
     }
 
+    h2 {
+        font-size: 30px;
+
+    }
+
     .card-target {
         display: flex;
         flex-wrap: wrap;
@@ -150,7 +155,7 @@ select#genre-selector:focus {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
     .anime-target {
         margin-top: 40px;
@@ -173,6 +178,17 @@ select#genre-selector:focus {
 }
 
 @media (min-width: 1024px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .imgsearch {
+        width: 100px;
+        height: 100px;
+
+    }
+
     .footerend {
         margin-top: 250px;
     }
