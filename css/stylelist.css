@@ -118,6 +118,10 @@ select#genre-selector:focus {
     height: 250px;
 }
 
+.footerend {
+    margin-top: 150px;
+}
+
 
 
 @media (min-width: 768px) {
@@ -165,5 +169,11 @@ select#genre-selector:focus {
 
     .anime-description {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footerend {
+        margin-top: 250px;
     }
 }

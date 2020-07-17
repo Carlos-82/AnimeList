@@ -94,6 +94,10 @@ main {
 
 }
 
+.footerend {
+    margin-top: 150px;
+}
+
 
 
 @media (min-width: 768px) {
@@ -135,4 +139,10 @@ main {
     }
 
 
+}
+
+@media (min-width: 1024px) {
+    .footerend {
+        margin-top: 200px;
+    }
 }

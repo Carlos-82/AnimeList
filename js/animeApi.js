@@ -2,10 +2,10 @@
 
 
 const searchGenre = (value) => {
-    for (let i = 0; i < 15; i++);
     return fetch(`https://api.jikan.moe/v3/genre/anime/${value}`)
         .then(res => res.json())
         .then(data => data.anime);
+
 }
 
 
