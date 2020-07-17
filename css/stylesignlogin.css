@@ -26,12 +26,12 @@ main {
 }
 
 .register-container {
-    background-image: url(/images/myhero.jpg);
+    background-image: url("../images/myhero.jpg");
     align-items: self-end;
 }
 
 .login-container {
-    background-image: url(/images//haykiuu.jpg);
+    background-image: url("../images//haykiuu.jpg");
 
 
 

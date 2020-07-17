@@ -155,7 +155,7 @@ p {
 }
 
 header {
-    background-image: url("/images/mobileanime.jpg");
+    background-image: url("../images/mobileanime.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -282,7 +282,7 @@ footer {
     }
 
     header {
-        background-image: url("/images/animecharacters.jpg");
+        background-image: url("../images/animecharacters.jpg");
     }
 
     .header-title {
